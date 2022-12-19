@@ -8,11 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'cibandoApp';
 
- colore = "nero";
 
-  evidenziato = false;
-
-  onEvidenziato() {
-    this.evidenziato = !this.evidenziato;
-  }
 }

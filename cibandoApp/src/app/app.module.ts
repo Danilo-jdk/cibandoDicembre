@@ -6,13 +6,19 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './shared/carousel/carousel.component';
-import { EsempiVariComponent } from './esempi-vari.component';
+import { RecipesComponent } from './components/recipes/recipes.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { HomeComponent } from './components/home/home.component';
+import { RecipeCardComponent } from './shared/recipe-card/recipe-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    EsempiVariComponent
+    RecipesComponent,
+    HeaderComponent,
+    HomeComponent,
+    RecipeCardComponent
   ],
   imports: [
     BrowserModule,

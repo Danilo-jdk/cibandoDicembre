@@ -14,7 +14,8 @@ export class CarouselComponent {
     {
     id: 1,
     titolo: 'Spaghetti al pomodoro'
-    },
+    }
+    ,
     {id: 2,
     titolo: 'Tagliata di Manzo'},
     {
